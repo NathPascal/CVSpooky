@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fbf9f9;
+}
+
+.cv-container {
+    width: 60%;
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: #faf7f7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-image: url(bubble-circle.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: rgb(9, 9, 9);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+header img.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    /*margin-bottom: 10px;*/
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+header div.title-effect span{
+        font-size: 1.5rem;
+        display: inline-block;
+        animation: move 3s ease-in-out infinite;
+
+}
+
+@keyframes move {
+    0% {
+      transform: translate(-20%, 0);
+    }
+    100% {
+      transform: translate(20%, 0);
+    }
+  }
+  
+.title-effect span:nth-child(1) {
+    animation-delay: 8s;
+  }
+  
+header p {
+    margin: 5px 0;
+}
+
+.main-content {
+    display: flex;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+.main-content p, .main-content li{
+    color:transparent;
+    transition: color 0.3s ease;
+}
+
+.main-content p:hover, .main-content li:hover{
+    color: black;
+}
+
+.left-column {
+    width: 100%;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    background-color: #b9cbb9;
+    border-radius: 10px;
+}
+
+.right-column {
+    width: 100%;
+    padding-left: 20px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    color: rgb(63, 146, 118);
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+h3 {
+    margin: 10px 0 5px;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 10px 0 10px 10px;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+footer{
+    padding: 20px;
+    color: rgb(122, 44, 44);
+    text-align: center;
+}
+

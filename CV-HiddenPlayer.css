@@ -1,3 +1,11 @@
+/* Media Queries */
+    @media screen and (min-width: 800px) {
+    .cv-container {
+        width: 100%;
+    }
+  }
+
+
 body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
@@ -134,4 +142,3 @@ footer img.hunger{
     top: 1025px;
     right: 310px;
 }
-

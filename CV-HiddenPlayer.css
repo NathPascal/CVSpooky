@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     background-color: #fbf9f9;
@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-image: url(bubble-circle.jpg);
+    background-image: url(Img/bubble-circle.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     color: rgb(9, 9, 9);
@@ -27,7 +27,6 @@ header img.profile-photo {
     height: 150px;
     border-radius: 50%;
     margin-top: 20px;
-    /*margin-bottom: 10px;*/
 }
 
 header h1 {
